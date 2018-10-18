@@ -1,4 +1,4 @@
-export default (input) => {
+export default = function(input) {
     var _addEventListener = (input.addEventListener) ? input.addEventListener : input.attachEvent;
 
     function addEventListenerWrapper(type, listener) {
